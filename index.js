@@ -47,22 +47,22 @@ let tutPrimoFrame
 let musica
 
 function preload() {
-    playerImgDx = loadImage("./img/sciatore.png")
-    playerImgSx = loadImage("./img/sciatore_sx.png")
+    playerImgDx = loadImage("./sciatore.png")
+    playerImgSx = loadImage("./sciatore_sx.png")
     playerWidth = 120; playerHeight = playerImgDx.height * (playerWidth / playerImgDx.width)
-    cuoreImg = loadImage("./img/cuore.png")
-    coppaImg = loadImage("./img/coppa.jpeg")
+    cuoreImg = loadImage("./cuore.png")
+    coppaImg = loadImage("./coppa.jpeg")
 
-    pistaImg = loadImage("./img/prova.png")
-    bandImg = loadImage("./img/bandierina.png")
+    pistaImg = loadImage("./prova.png")
+    bandImg = loadImage("./bandierina.png")
 
-    startImg = loadImage("./img/start_image.png")
-    pausaImg = loadImage("./img/pause.jpg")
-    gameOverImg = loadImage("./img/game_over.jpg")
-    tutorialImg = loadImage("./img/tutorial.png")
-    sceltaImg = loadImage("./img/scelta_og.png")
+    startImg = loadImage("./start_image.png")
+    pausaImg = loadImage("./pause.jpg")
+    gameOverImg = loadImage("./game_over.jpg")
+    tutorialImg = loadImage("./tutorial.png")
+    sceltaImg = loadImage("./scelta_og.png")
 
-    musica = loadSound("./img/lavoro.mp3")
+    musica = loadSound("./lavoro.mp3")
 
     punteggio = 0
     puntVittoria = 10
@@ -237,4 +237,5 @@ function controllaDribbling() {
             }
         }
     }
+
 }
